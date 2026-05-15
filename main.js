@@ -1,5 +1,5 @@
 let container = document.querySelector('.container');
-let url = 'https://api.thedogapi.com/v1/breeds';
+let url = let url = 'https://api.thedogapi.com/v1/breeds?limit=10';
 
 function createdog(breed) {
   let div = document.createElement('div');
